@@ -1,3 +1,12 @@
+/* Change the color of your main heading */
+h1 {
+    color: red;
+}
+
+/* Change the background color of the entire page */
+body {
+    background-color: #f0f0f0;
+}
 .your-element {
   box-shadow: [inset] h-offset v-offset blur-radius spread-radius color;
 }
