@@ -2,19 +2,34 @@ console.log("Hello, World!");
 // 1. Data Structure for Questions
 const quizData = [
     {
-        question: "Which language runs in a web browser?",
-        options: ["Java", "C", "Python", "JavaScript"],
-        correct: "JavaScript"
+        question: "Question 1 What is the sum of 130+125+191??",
+        options: ["446", "445", "444", "447"],
+        correct: "446"
     },
     {
-        question: "What does CSS stand for?",
-        options: ["Central Style Sheets", "Cascading Style Sheets", "Cascading System Sheets", "Cars SUVs Sailboats"],
-        correct: "Cascading Style Sheets"
+        question: "Question 2:If we minus 712 from 1500, how much do we get?",
+        options: ["788", "787", "786", "789"],
+        correct: "788"
     },
     {
-        question: "What year was JavaScript launched?",
-        options: ["1996", "1995", "1994", "None of these"],
-        correct: "1995"
+        question: "Question 3:50 times of 8 is equal to?",
+        options: ["400", "399", "398", "None of these"],
+        correct: "400"
+    },
+    {
+        question: "Question 4: What is 25 divided by 5?",
+        options: ["5", "4", "6", "None of these"],
+        correct: "5"
+    },
+    {
+        question: "Question 5: What is the square root of 64?",
+        options: ["8", "7", "6", "None of these"],
+        correct: "8"
+    },  
+    {
+        question: "Question 6: What is 7 multiplied by 6?",
+        options: ["42", "41", "43", "None of these"],
+        correct: "42"
     }
 ];
 
