@@ -1,3 +1,4 @@
+console.log("Hello, World!");
 // 1. Data Structure for Questions
 const quizData = [
     {
