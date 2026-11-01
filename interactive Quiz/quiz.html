@@ -1,150 +1,258 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
-</head>
-<!-- Changes the background of the entire page -->
-<body style="background-color: rgb(241, 253, 211);">  
-  <!-- Changes the background of just this paragraph -->
-</body>
+    <title>Math Quiz</title>
 
-<body>
-    <h1>Knowledge Quiz🤔</h1>
-    <p>This is a simple quiz with simple questions most people should know.🤓</p>
-    <div style="width: 500px; height: 100px; background-color: rgb(241, 253, 211); box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);">
-    <h2>Question 1 What is the sum of 130+125+191?</h2>
-    </div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eff6ff;
+            text-align: center;
+            padding: 40px;
+        }
 
-    <form>
-        <input type="radio" id="option1" name="question1" value="option1">
-        <label for="option1">446</label><br>
-        <input type="radio" id="option2" name="question1" value="option2">
-        <label for="option2">456</label><br>
-        <input type="radio" id="option3" name="question1" value="option3">
-        <label for="option3">436</label><br>
-        <input type="radio" id="option4" name="question1" value="option4">
-        <label for="option4">426</label><br>
-    </form>
-    <div style="width: 500px; height: 90px; background-color: rgb(241, 253, 211); box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);">
-    <h2>Question 2:If we minus 712 from 1500, how much do we get?</h2>
-    </div>
-    <form>
-        <input type="radio" id="option1" name="question2" value="option1">
-        <label for="option1">788</label><br>
-        <input type="radio" id="option2" name="question2" value="option2">
-        <label for="option2">798</label><br>
-        <input type="radio" id="option3" name="question2" value="option3">
-        <label for="option3">808</label><br>
-        <input type="radio" id="option4" name="question2" value="option4">
-        <label for="option4">818</label><br>
-    </form>
-    <div style="width: 500px; height: 90px; background-color: rgb(241, 253, 211); box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);">
-    <h2>Question 3:50 times of 8 is equal to?</h2>
-    </div>
-    <form>
-        <input type="radio" id="option1" name="question3" value="option1">
-        <label for="option1">400</label><br>
-        <input type="radio" id="option2" name="question3" value="option2">
-        <label for="option2">410</label><br>
-        <input type="radio" id="option3" name="question3" value="option3">
-        <label for="option3">420</label><br>
-        <input type="radio" id="option4" name="question3" value="option4">
-        <label for="option4">430</label><br>
-    </form>
-    <div style="width: 500px; height: 90px; background-color: rgb(241, 253, 211); box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);">
-    <h2>Question 4: What is the square root of 64?</h2>
-    </div>
-    <form>
-        <input type="radio" id="option1" name="question4" value="option1">
-        <label for="option1">6</label><br>
-        <input type="radio" id="option2" name="question4" value="option2">
-        <label for="option2">7</label><br>
-        <input type="radio" id="option3" name="question4" value="option3">
-        <label for="option3">8</label><br>
-        <input type="radio" id="option4" name="question4" value="option4">
-        <label for="option4">9</label><br>
-    </form>
-    <div style="width: 500px; height: 90px; background-color: rgb(241, 253, 211); box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);">
-    <h2>Question 5: What is the capital of France?</h2>
-    </div>
-    <form>
-        <input type="radio" id="option1" name="question5" value="option1">
-        <label for="option1">London</label><br>
-        <input type="radio" id="option2" name="question5" value="option2">
-        <label for="option2">Berlin</label><br>
-        <input type="radio" id="option3" name="question5" value="option3">
-        <label for="option3">Paris</label><br>
-        <input type="radio" id="option4" name="question5" value="option4">
-        <label for="option4">Madrid</label><br>
-    </form>
-    <div style="width: 500px; height: 90px; background-color: rgb(241, 253, 211); box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);">
-    <h2>Question 6: What is the largest planet in our solar system?</h2>
-    </div>
-    <form>
-        <input type="radio" id="option1" name="question6" value="option1">
-        <label for="option1">Jupiter</label><br>
-        <input type="radio" id="option2" name="question6" value="option2">
-        <label for="option2">Saturn</label><br>
-        <input type="radio" id="option3" name="question6" value="option3">
-        <label for="option3">Uranus</label><br>
-        <input type="radio" id="option4" name="question6" value="option4">
-        <label for="option4">Neptune</label><br>
-    </form>
-    <div style="width: 500px; height: 90px; background-color: rgb(241, 253, 211); box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);">
-    <h2>Question 7: What is the capital of Japan?</h2>
-    </div>
-    <form>
-        <input type="radio" id="option1" name="question7" value="option1">
-        <label for="option1">Tokyo</label><br>
-        <input type="radio" id="option2" name="question7" value="option2">
-        <label for="option2">Osaka</label><br>
-        <input type="radio" id="option3" name="question7" value="option3">
-        <label for="option3">Kyoto</label><br>
-        <input type="radio" id="option4" name="question7" value="option4">
-        <label for="option4">Nagoya</label><br>
-    </form>
- <style>
-        body { font-family: Arial, sans-serif; margin: 2rem; background-color: #f9f9f9; }
-        .form-container { max-width: 400px; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-        .form-group { margin-bottom: 1.25rem; }
-        label { display: block; margin-bottom: 0.5rem; font-weight: bold; }
-        input[type="text"], input[type="email"], textarea { width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
-        textarea { resize: vertical; height: 100px; }
-        button { background-color: #007BFF; color: white; border: none; padding: 0.75rem 1.5rem; border-radius: 4px; cursor: pointer; font-size: 1rem; width: 100%; }
-        button:hover { background-color: #0056b3; }
+        .quiz-container {
+            background: white;
+            max-width: 500px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #2563eb;
+        }
+
+        #question {
+            font-size: 22px;
+            margin: 25px 0;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 8px;
+            background-color: #2563eb;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1e40af;
+        }
+
+        button:disabled {
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+
+        #feedback {
+            font-weight: bold;
+            margin: 20px;
+        }
+
+        #next-btn {
+            background-color: #16a34a;
+            display: none;
+        }
+
+        #restart-btn {
+            background-color: #f59e0b;
+            display: none;
+        }
     </style>
 </head>
+
 <body>
 
-<div class="form-container">
-    <!-- Replace the action URL with your actual backend processing URL or serverless form endpoint -->
-    <form action="" method="POST">
-        
-        <!-- Name Field -->
-        <div class="form-group">
-            <label for="name">Full Name</label>
-            <input type="text" id="name" name="name" placeholder="Your Name" required>
-        </div>
+    <div class="quiz-container">
 
-        <!-- Email Field -->
-        <div class="form-group">
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
-        </div>
+        <h1>Math Challenge!</h1>
 
-        <!-- Message Field -->
-        <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Type your message here...🙀" required></textarea>
-        </div>
+        <p id="score">Score: 0</p>
 
-        <!-- Submit Button -->
-        <button type="submit">Send Message</button>
-        
-    </form>
-</div>
+        <p id="question">Question goes here</p>
+
+        <div id="answers"></div>
+
+        <p id="feedback"></p>
+
+        <button id="next-btn" onclick="nextQuestion()">
+            Next Question
+        </button>
+
+        <button id="restart-btn" onclick="restartQuiz()">
+            Play Again
+        </button>
+
+    </div>
+
+    <script>
+
+        const questions = [
+            {
+                question: "What is 8 × 7?",
+                answers: ["54", "56", "64", "49"],
+                correct: "56"
+            },
+
+            {
+                question: "What is 100 ÷ 4?",
+                answers: ["20", "30", "25", "40"],
+                correct: "25"
+            },
+
+            {
+                question: "What is 15 + 28?",
+                answers: ["43", "45", "42", "40"],
+                correct: "43"
+            },
+
+            {
+                question: "What is 9 × 9?",
+                answers: ["72", "81", "90", "99"],
+                correct: "81"
+            },
+
+            {
+                question: "What is 50 - 17?",
+                answers: ["33", "37", "35", "31"],
+                correct: "33"
+            }
+        ];
+
+        let currentQuestion = 0;
+        let score = 0;
+
+        function showQuestion() {
+
+            const q = questions[currentQuestion];
+
+            document.getElementById("question").textContent =
+                q.question;
+
+            document.getElementById("score").textContent =
+                "Score: " + score;
+
+            document.getElementById("feedback").textContent = "";
+
+            document.getElementById("next-btn").style.display = "none";
+
+            const answersDiv = document.getElementById("answers");
+            answersDiv.innerHTML = "";
+
+            q.answers.forEach(answer => {
+
+                const button = document.createElement("button");
+
+                button.textContent = answer;
+
+                button.onclick = () => checkAnswer(answer, button);
+
+                answersDiv.appendChild(button);
+
+            });
+        }
+
+        function checkAnswer(answer, button) {
+
+            const correct = questions[currentQuestion].correct;
+
+            const buttons = document.querySelectorAll("#answers button");
+
+            buttons.forEach(btn => btn.disabled = true);
+
+            if (answer === correct) {
+
+                score++;
+
+                document.getElementById("feedback").textContent =
+                    "Correct! Great job!";
+
+                button.style.backgroundColor = "#16a34a";
+
+            } else {
+
+                document.getElementById("feedback").textContent =
+                    "Not quite! The correct answer is " + correct + ".";
+
+                button.style.backgroundColor = "#dc2626";
+
+            }
+
+            document.getElementById("score").textContent =
+                "Score: " + score;
+
+            if (currentQuestion === questions.length - 1) {
+
+                document.getElementById("next-btn").textContent =
+                    "See Results";
+
+            } else {
+
+                document.getElementById("next-btn").textContent =
+                    "Next Question";
+
+            }
+
+            document.getElementById("next-btn").style.display = "block";
+        }
+
+        function nextQuestion() {
+
+            currentQuestion++;
+
+            if (currentQuestion < questions.length) {
+
+                showQuestion();
+
+            } else {
+
+                showResults();
+
+            }
+        }
+
+        function showResults() {
+
+            document.getElementById("question").textContent =
+                "Quiz Completed!";
+
+            document.getElementById("answers").innerHTML = "";
+
+            document.getElementById("feedback").textContent =
+                "You scored " + score + " out of " +
+                questions.length + "!";
+
+            document.getElementById("score").textContent =
+                "Final Score: " + score;
+
+            document.getElementById("next-btn").style.display = "none";
+
+            document.getElementById("restart-btn").style.display = "block";
+        }
+
+        function restartQuiz() {
+
+            currentQuestion = 0;
+            score = 0;
+
+            document.getElementById("restart-btn").style.display = "none";
+
+            showQuestion();
+        }
+
+        showQuestion();
+
+    </script>
 
 </body>
 </html>
