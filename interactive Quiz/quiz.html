@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Math Quiz</title>
+    <title>Calculus Quiz</title>
 
     <style>
         body {
@@ -19,7 +19,7 @@
             max-width: 500px;
             margin: auto;
             padding: 30px;
-            border-radius: 15px;
+            border-radius: 20px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
 
@@ -75,7 +75,7 @@
 
     <div class="quiz-container">
 
-        <h1>Math Challenge!</h1>
+        <h1>Calculus Quiz</h1>
 
         <p id="score">Score: 0</p>
 
@@ -99,33 +99,33 @@
 
         const questions = [
             {
-                question: "What is 8 × 7?",
-                answers: ["54", "56", "64", "49"],
-                correct: "56"
+                question: "The frac function is defined by:frac(x) = x - floor(x)",
+                answers: ["Differentiable and continuous for all Real numbers", "Differentiable for all Real numbers, but not always continuous", "Continuous, but not differentiable", "Sometimes differentiable, but not continuous"],
+                correct: "Sometimes differentiable, but not continuous"
             },
 
             {
-                question: "What is 100 ÷ 4?",
-                answers: ["20", "30", "25", "40"],
-                correct: "25"
+                question: "If f(x) = (x2 + 1)(x2 − 1), what is f ''(x) ?(f ''(x) is the second derivative of f(x))",
+                answers: ["4", "12x2 − 4", "12x2", "12x2 + 4"],
+                correct: "12x2"
             },
 
             {
-                question: "What is 15 + 28?",
-                answers: ["43", "45", "42", "40"],
-                correct: "43"
+                question: "Use differentiation from first principles to find the slope of the function y = x3 at x = -2",
+                answers: ["-12", "-8", "8", "12"],
+                correct: "12"
             },
 
             {
-                question: "What is 9 × 9?",
-                answers: ["72", "81", "90", "99"],
-                correct: "81"
+                question: "Which one of the following is a not a continuous function?",
+                answers: ["f(x) = ceil(x + 1)", "f(x) = (x + 1)3", "f(x) = e(x + 1)", "f(x) = |x + 1|"],
+                correct: "f(x) = ceil(x + 1)"
             },
 
             {
-                question: "What is 50 - 17?",
-                answers: ["33", "37", "35", "31"],
-                correct: "33"
+                question: "What is the y coordinate of the maximum point for the curve y = -9x2 − 3x + 2?",
+                answers: ["1 3/4", "2", "2 1/4", "2 1/2"],
+                correct: "2 1/4"
             }
         ];
 
