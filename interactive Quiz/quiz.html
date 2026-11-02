@@ -19,8 +19,8 @@
             max-width: 500px;
             margin: auto;
             padding: 30px;
-            border-radius: 20px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-radius: 50px;
+            box-shadow: 0 10px 15px rgba(0,0,0,0.1);
         }
 
         h1 {
@@ -86,11 +86,11 @@
         <p id="feedback"></p>
 
         <button id="next-btn" onclick="nextQuestion()">
-            Next Question
+            Next Question🥸
         </button>
 
         <button id="restart-btn" onclick="restartQuiz()">
-            Play Again
+            Play Again?🤔
         </button>
 
     </div>
@@ -175,14 +175,14 @@
                 score++;
 
                 document.getElementById("feedback").textContent =
-                    "Correct! Great job!";
+                    "Correct‼️🙊";
 
                 button.style.backgroundColor = "#16a34a";
 
             } else {
 
                 document.getElementById("feedback").textContent =
-                    "Not quite! The correct answer is " + correct + ".";
+                    "WRONG‼️😿The correct answer is " + correct + ".";
 
                 button.style.backgroundColor = "#dc2626";
 
